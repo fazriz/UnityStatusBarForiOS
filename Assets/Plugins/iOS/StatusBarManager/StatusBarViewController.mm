@@ -9,8 +9,9 @@
 #error This file must be compiled with ARC. Either turn on ARC for the project or use -fobjc-arc flag
 #endif
 
-
-#include "UnityViewControllerBaseiOS.h"
+//Fixed for Building From Unity 2017.2.0f3
+#include "UnityViewControllerBase.h"
+//#include "UnityViewControllerBaseiOS.h"
 
 @interface StatusBarViewController : NSObject
 {
